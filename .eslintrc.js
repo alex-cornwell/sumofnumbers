@@ -13,6 +13,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: './tsconfig.json',
+    ignorePatterns: [".eslintrc.js"]
   },
   rules: {
     'arrow-parens': 'off',
