@@ -12,8 +12,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: './tsconfig.json',
-    ignorePatterns: [".eslintrc.js"]
+    project: ['./tsconfig.json', '.eslintrc.js'],
   },
   rules: {
     'arrow-parens': 'off',
