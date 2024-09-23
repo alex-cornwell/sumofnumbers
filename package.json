@@ -13,10 +13,12 @@
     "prettier-eslint": "^16.3.0",
     "typescript": "^5.4.5"
   },
-  "dependencies": {},
   "scripts": {
     "lint": "eslint *.ts",
     "lint-fix": "eslint *.ts --fix"
   },
-  "private": true
+  "private": true,
+  "main": "sumofnumbers.js",
+  "author": "Alex Cornwell",
+  "license": "ISC"
 }

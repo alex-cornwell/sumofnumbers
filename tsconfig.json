@@ -8,7 +8,8 @@
     "skipLibCheck": true
   },
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+    "sumofnumbers.js"
   ],
   "exclude": [
     "node_modules"
